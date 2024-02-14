@@ -14,6 +14,6 @@ This is a simple implementation of the Boid algorithm in C++ using the Raylib li
 - 4. Run `make`
 - 5. Run `./boids`
 
-## Screenshots
+## Screenshots
 
 ![Boids](screenshots/boids.gif)
