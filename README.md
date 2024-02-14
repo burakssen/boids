@@ -1,4 +1,4 @@
-## Boid Implementation in C++ Raylib
+## Boid Implementation in C++ Raylib
 
 This is a simple implementation of the Boid algorithm in C++ using the Raylib library. The Boid algorithm is a simple algorithm that simulates the flocking behavior of birds. The algorithm is based on three simple rules:
 
