@@ -8,11 +8,11 @@ This is a simple implementation of the Boid algorithm in C++ using the Raylib li
 
 ## How to run
 
-- 1. Clone the repository using `git clone --recursive https://github.com/burakssen/boids.git`
-- 2. Run `mkdir build && cd build`
-- 3. Run `cmake ..`
-- 4. Run `make`
-- 5. Run `./boids`
+1. Clone the repository using `git clone --recursive https://github.com/burakssen/boids.git`
+2. Run `mkdir build && cd build`
+3. Run `cmake ..`
+4. Run `make`
+5. Run `./boids`
 
 ## Screenshots
 
