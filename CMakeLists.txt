@@ -27,4 +27,4 @@ target_include_directories(boids PUBLIC ${INCLUDE_DIRECTORIES})
 
 target_link_libraries(boids PUBLIC raylib)
 
-file(COPY "resources" DESTINATION "${CMAKE_BINARY_DIR}")
+# file(COPY "resources" DESTINATION "${CMAKE_BINARY_DIR}")
