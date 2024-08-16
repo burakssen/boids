@@ -70,4 +70,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: public
           publish_branch: gh-pages
-          force_orphan: true # Ensure the gh-pages branch is created for the first deployment
+          force_orphan: true
