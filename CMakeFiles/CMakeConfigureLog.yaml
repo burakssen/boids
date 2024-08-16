@@ -21,8 +21,8 @@ events:
     checks:
       - "Performing Test COMPILER_HAS_THOSE_TOGGLES"
     directories:
-      source: "/home/runner/work/boids/boids/build/CMakeFiles/CMakeScratch/TryCompile-odZJRG"
-      binary: "/home/runner/work/boids/boids/build/CMakeFiles/CMakeScratch/TryCompile-odZJRG"
+      source: "/home/runner/work/boids/boids/build/CMakeFiles/CMakeScratch/TryCompile-LBTZqC"
+      binary: "/home/runner/work/boids/boids/build/CMakeFiles/CMakeScratch/TryCompile-LBTZqC"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
       CMAKE_C_FLAGS: ""
@@ -32,20 +32,20 @@ events:
       variable: "COMPILER_HAS_THOSE_TOGGLES"
       cached: true
       stdout: |
-        Change Dir: '/home/runner/work/boids/boids/build/CMakeFiles/CMakeScratch/TryCompile-odZJRG'
+        Change Dir: '/home/runner/work/boids/boids/build/CMakeFiles/CMakeScratch/TryCompile-LBTZqC'
         
-        Run Build Command(s): /opt/hostedtoolcache/cmake/3.30.2/x64/cmake-3.30.2-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ab604/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_ab604.dir/build.make CMakeFiles/cmTC_ab604.dir/build
-        gmake[1]: Entering directory '/home/runner/work/boids/boids/build/CMakeFiles/CMakeScratch/TryCompile-odZJRG'
-        Building C object CMakeFiles/cmTC_ab604.dir/src.c.o
-        /home/runner/work/_temp/0b406434-c3a4-4e24-a42f-248d6c56fc4b/emsdk-main/upstream/emscripten/emcc -DCOMPILER_HAS_THOSE_TOGGLES  -Werror=pointer-arith -MD -MT CMakeFiles/cmTC_ab604.dir/src.c.o -MF CMakeFiles/cmTC_ab604.dir/src.c.o.d -o CMakeFiles/cmTC_ab604.dir/src.c.o -c /home/runner/work/boids/boids/build/CMakeFiles/CMakeScratch/TryCompile-odZJRG/src.c
+        Run Build Command(s): /opt/hostedtoolcache/cmake/3.30.2/x64/cmake-3.30.2-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_88ebb/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_88ebb.dir/build.make CMakeFiles/cmTC_88ebb.dir/build
+        gmake[1]: Entering directory '/home/runner/work/boids/boids/build/CMakeFiles/CMakeScratch/TryCompile-LBTZqC'
+        Building C object CMakeFiles/cmTC_88ebb.dir/src.c.o
+        /home/runner/work/_temp/a56874e7-6436-4a67-882c-896858678643/emsdk-main/upstream/emscripten/emcc -DCOMPILER_HAS_THOSE_TOGGLES  -Werror=pointer-arith -MD -MT CMakeFiles/cmTC_88ebb.dir/src.c.o -MF CMakeFiles/cmTC_88ebb.dir/src.c.o.d -o CMakeFiles/cmTC_88ebb.dir/src.c.o -c /home/runner/work/boids/boids/build/CMakeFiles/CMakeScratch/TryCompile-LBTZqC/src.c
         shared:INFO: (Emscripten: Running sanity checks)
-        Linking C executable cmTC_ab604.js
-        /opt/hostedtoolcache/cmake/3.30.2/x64/cmake-3.30.2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab604.dir/link.txt --verbose=1
-        /home/runner/work/_temp/0b406434-c3a4-4e24-a42f-248d6c56fc4b/emsdk-main/upstream/emscripten/emcc @CMakeFiles/cmTC_ab604.dir/objects1.rsp -o cmTC_ab604.js
-        cache:INFO: generating system asset: symbol_lists/5af15e17dd067d4ae3a9b763c63d9726ad0fded4.json... (this will be cached in "/home/runner/work/_temp/0b406434-c3a4-4e24-a42f-248d6c56fc4b/emsdk-main/upstream/emscripten/cache/symbol_lists/5af15e17dd067d4ae3a9b763c63d9726ad0fded4.json" for subsequent builds)
+        Linking C executable cmTC_88ebb.js
+        /opt/hostedtoolcache/cmake/3.30.2/x64/cmake-3.30.2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88ebb.dir/link.txt --verbose=1
+        /home/runner/work/_temp/a56874e7-6436-4a67-882c-896858678643/emsdk-main/upstream/emscripten/emcc @CMakeFiles/cmTC_88ebb.dir/objects1.rsp -o cmTC_88ebb.js
+        cache:INFO: generating system asset: symbol_lists/5af15e17dd067d4ae3a9b763c63d9726ad0fded4.json... (this will be cached in "/home/runner/work/_temp/a56874e7-6436-4a67-882c-896858678643/emsdk-main/upstream/emscripten/cache/symbol_lists/5af15e17dd067d4ae3a9b763c63d9726ad0fded4.json" for subsequent builds)
         cache:INFO:  - ok
-        gmake[1]: Leaving directory '/home/runner/work/boids/boids/build/CMakeFiles/CMakeScratch/TryCompile-odZJRG'
+        gmake[1]: Leaving directory '/home/runner/work/boids/boids/build/CMakeFiles/CMakeScratch/TryCompile-LBTZqC'
         
       exitCode: 0
 ...
