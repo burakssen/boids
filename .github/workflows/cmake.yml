@@ -2,7 +2,7 @@ name: Build and Deploy WebAssembly
 on:
   push:
     branches:
-      - master # This will trigger on pushes to the main branch
+      - master
   pull_request:
     branches:
       - master
@@ -13,7 +13,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          submodules: true # Ensure submodules are checked out if present
+          submodules: true
           fetch-depth: 0
       - name: Set up Emscripten SDK
         uses: mymindstorm/setup-emsdk@v14
@@ -32,9 +32,18 @@ jobs:
         run: |
           cd build
           emmake make -j
+      - name: List build directory contents
+        run: |
+          echo "Contents of build directory:"
+          ls -R build
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.5
         with:
-          branch: gh-pages # The branch the action should deploy to.
-          folder: build # The folder the action should deploy.
-          clean: true # Automatically remove deleted files from the deploy branch
+          branch: gh-pages
+          folder: build
+          clean: true
+      - name: Debug - List gh-pages branch contents
+        run: |
+          git checkout gh-pages
+          echo "Contents of gh-pages branch:"
+          ls -R
