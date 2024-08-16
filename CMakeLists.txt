@@ -42,4 +42,12 @@ if(EMSCRIPTEN)
     set_target_properties(boids PROPERTIES 
         LINK_FLAGS "-s USE_GLFW=3 -s TOTAL_MEMORY=16777216 --shell-file ${CMAKE_SOURCE_DIR}/index.html"
     )
+
+    # copy boids.js and boids.wasm to the root directory
+    add_custom_command(TARGET boids POST_BUILD
+        COMMAND ${CMAKE_COMMAND} -E copy_if_different
+        "${CMAKE_CURRENT_BINARY_DIR}/boids.js"
+        "${CMAKE_CURRENT_BINARY_DIR}/boids.wasm"
+        "${CMAKE_SOURCE_DIR}"
+    )
 endif()

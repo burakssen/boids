@@ -1,4 +1,5 @@
 name: Build and Deploy WebAssembly
+
 on:
   push:
     branches:
@@ -6,9 +7,11 @@ on:
   pull_request:
     branches:
       - master
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -39,30 +42,13 @@ jobs:
           cd build
           emmake make -j
 
-      - name: List build directory contents
-        run: |
-          echo "Contents of build directory:"
-          ls -R build
-
-      - name: Create deployment directory
+      - name: Copy files to deployment directory
         run: |
           mkdir -p deploy
-          if [ -f build/index.html ]; then cp build/index.html deploy/; fi
-          if [ -f build/boids.js ]; then cp build/boids.js deploy/; fi
-          if [ -f build/boids.wasm ]; then cp build/boids.wasm deploy/; fi
-          echo "Contents of deploy directory:"
-          ls -R deploy/
+          cp build/index.html build/boids.js build/boids.wasm deploy/
 
       - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          branch: gh-pages
-          folder: deploy
-          clean: true
-
-      - name: Verify GitHub Pages Deployment
-        run: |
-          echo "Checking deployment..."
-          curl -I https://<username>.github.io/<repository>/index.html || true
-          curl -I https://<username>.github.io/<repository>/boids.js || true
-          curl -I https://<username>.github.io/<repository>/boids.wasm || true
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./deploy
