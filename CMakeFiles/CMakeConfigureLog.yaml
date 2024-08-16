@@ -1,0 +1,51 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/hostedtoolcache/cmake/3.30.2/x64/cmake-3.30.2-linux-x86_64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:200 (message)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      The target system is: Emscripten - 1 - x86
+      The host system is: Linux - 6.5.0-1025-azure - x86_64
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/hostedtoolcache/cmake/3.30.2/x64/cmake-3.30.2-linux-x86_64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/hostedtoolcache/cmake/3.30.2/x64/cmake-3.30.2-linux-x86_64/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/hostedtoolcache/cmake/3.30.2/x64/cmake-3.30.2-linux-x86_64/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "vendor/raylib/cmake/AddIfFlagCompiles.cmake:3 (CHECK_C_COMPILER_FLAG)"
+      - "vendor/raylib/cmake/CompilerFlags.cmake:5 (add_if_flag_compiles)"
+      - "vendor/raylib/CMakeLists.txt:34 (include)"
+    checks:
+      - "Performing Test COMPILER_HAS_THOSE_TOGGLES"
+    directories:
+      source: "/home/runner/work/boids/boids/build/CMakeFiles/CMakeScratch/TryCompile-VNXhQ0"
+      binary: "/home/runner/work/boids/boids/build/CMakeFiles/CMakeScratch/TryCompile-VNXhQ0"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/runner/work/boids/boids/vendor/raylib/cmake"
+    buildResult:
+      variable: "COMPILER_HAS_THOSE_TOGGLES"
+      cached: true
+      stdout: |
+        Change Dir: '/home/runner/work/boids/boids/build/CMakeFiles/CMakeScratch/TryCompile-VNXhQ0'
+        
+        Run Build Command(s): /opt/hostedtoolcache/cmake/3.30.2/x64/cmake-3.30.2-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_76cde/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_76cde.dir/build.make CMakeFiles/cmTC_76cde.dir/build
+        gmake[1]: Entering directory '/home/runner/work/boids/boids/build/CMakeFiles/CMakeScratch/TryCompile-VNXhQ0'
+        Building C object CMakeFiles/cmTC_76cde.dir/src.c.o
+        /home/runner/work/_temp/68969644-76a5-41eb-a1d9-09af4dba0307/emsdk-main/upstream/emscripten/emcc -DCOMPILER_HAS_THOSE_TOGGLES  -Werror=pointer-arith -MD -MT CMakeFiles/cmTC_76cde.dir/src.c.o -MF CMakeFiles/cmTC_76cde.dir/src.c.o.d -o CMakeFiles/cmTC_76cde.dir/src.c.o -c /home/runner/work/boids/boids/build/CMakeFiles/CMakeScratch/TryCompile-VNXhQ0/src.c
+        shared:INFO: (Emscripten: Running sanity checks)
+        Linking C executable cmTC_76cde.js
+        /opt/hostedtoolcache/cmake/3.30.2/x64/cmake-3.30.2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76cde.dir/link.txt --verbose=1
+        /home/runner/work/_temp/68969644-76a5-41eb-a1d9-09af4dba0307/emsdk-main/upstream/emscripten/emcc @CMakeFiles/cmTC_76cde.dir/objects1.rsp -o cmTC_76cde.js
+        cache:INFO: generating system asset: symbol_lists/5af15e17dd067d4ae3a9b763c63d9726ad0fded4.json... (this will be cached in "/home/runner/work/_temp/68969644-76a5-41eb-a1d9-09af4dba0307/emsdk-main/upstream/emscripten/cache/symbol_lists/5af15e17dd067d4ae3a9b763c63d9726ad0fded4.json" for subsequent builds)
+        cache:INFO:  - ok
+        gmake[1]: Leaving directory '/home/runner/work/boids/boids/build/CMakeFiles/CMakeScratch/TryCompile-VNXhQ0'
+        
+      exitCode: 0
+...
