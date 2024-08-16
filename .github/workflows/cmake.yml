@@ -16,8 +16,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Set up Emscripten
-        uses: docker://trzeci/emscripten:sdk-tag-1.39.8-64bit
+      - name: Set up Emscripten SDK
+        uses: mymindstorm/setup-emsdk@v14
+
+      - name: Verify
+        run: emcc -v
 
       - name: Set up CMake
         uses: jwlawson/actions-setup-cmake@v1
