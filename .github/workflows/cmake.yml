@@ -11,9 +11,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4 # Updated to the latest version
+        uses: actions/checkout@v4
         with:
-          submodules: recursive
+          submodules: true
           fetch-depth: 0
 
       - name: Set up Emscripten SDK
@@ -23,7 +23,7 @@ jobs:
         run: emcc -v
 
       - name: Set up CMake
-        uses: jwlawson/actions-setup-cmake@v2 # Updated to the latest version
+        uses: jwlawson/actions-setup-cmake@v2
 
       - name: Install dependencies
         run: sudo apt-get update && sudo apt-get install -y build-essential
@@ -39,27 +39,16 @@ jobs:
           cd build
           emmake make -j
 
-      - name: List build directory contents
+      - name: Create deployment directory
         run: |
-          echo "Contents of build directory:"
-          ls -R build
-
-      - name: Upload build artifacts
-        uses: actions/upload-artifact@v4 # Updated to v4
-        with:
-          name: wasm-build
-          path: build/
+          mkdir -p deploy
+          cp build/index.html deploy/
+          cp build/boids.js deploy/
+          cp build/boids.wasm deploy/
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
-          folder: build
+          folder: deploy
           clean: true
-
-      - name: Debug - List gh-pages branch contents
-        run: |
-          git fetch origin gh-pages
-          git checkout gh-pages
-          echo "Contents of gh-pages branch:"
-          ls -R
