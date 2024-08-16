@@ -15,35 +15,47 @@ jobs:
         with:
           submodules: true
           fetch-depth: 0
+
       - name: Set up Emscripten SDK
         uses: mymindstorm/setup-emsdk@v14
+
       - name: Verify Emscripten
         run: emcc -v
+
       - name: Set up CMake
         uses: jwlawson/actions-setup-cmake@v1
+
       - name: Install dependencies
         run: sudo apt-get update && sudo apt-get install -y build-essential
+
       - name: Configure CMake for WebAssembly
         run: |
           mkdir -p build
           cd build
           emcmake cmake .. -DPLATFORM=Web
+
       - name: Build WebAssembly
         run: |
           cd build
           emmake make -j
+
       - name: List build directory contents
         run: |
           echo "Contents of build directory:"
           ls -R build
+
+      - name: Create artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: wasm-build
+          path: |
+            build/index.html
+            build/boids.js
+            build/boids.wasm
+
       - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@4.1.5
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
           folder: build
           clean: true
-      - name: Debug - List gh-pages branch contents
-        run: |
-          git checkout gh-pages
-          echo "Contents of gh-pages branch:"
-          ls -R
