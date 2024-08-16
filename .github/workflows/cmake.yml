@@ -42,15 +42,10 @@ jobs:
           cd build
           emmake make -j
 
-      - name: Copy files to deployment directory
-        run: |
-          mkdir -p deploy
-          cp build/index.html build/boids.js build/boids.wasm ../
-
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
-          FOLDER: ./
+          FOLDER: build
           CLEAN: true
