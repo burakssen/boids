@@ -22,7 +22,7 @@ jobs:
       - name: Set up Emscripten SDK
         uses: mymindstorm/setup-emsdk@v14
 
-      - name: Verify
+      - name: Verify Emscripten
         run: emcc -v
 
       - name: Set up CMake
@@ -42,7 +42,7 @@ jobs:
           cd build
           emmake make -j
 
-      - name: Upload artifacts
+      - name: Upload build artifacts
         uses: actions/upload-artifact@v3
         with:
           name: webassembly-build
@@ -69,3 +69,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: public
+          publish_branch: gh-pages
+          force_orphan: true # Ensure the gh-pages branch is created for the first deployment
