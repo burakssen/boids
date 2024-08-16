@@ -1,0 +1,1 @@
+/home/runner/work/_temp/0b406434-c3a4-4e24-a42f-248d6c56fc4b/emsdk-main/upstream/emscripten/em++ -s USE_GLFW=3 -s TOTAL_MEMORY=16777216 --shell-file /home/runner/work/boids/boids/index.html @CMakeFiles/boids.dir/objects1.rsp -o boids.js @CMakeFiles/boids.dir/linkLibs.rsp
