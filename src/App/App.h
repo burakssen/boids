@@ -12,6 +12,10 @@
 
 #include "Boid/Boid.h"
 
+#if defined(PLATFORM_WEB)
+#include <emscripten/emscripten.h>
+#endif
+
 class App
 {
     App();
@@ -21,16 +25,28 @@ public:
     static App &GetInstance();
     void Run();
 
-private:
     void Update();
     void Draw();
+
+private:
     void HandleInput();
 
 private:
-    float m_width = 1024;
-    float m_height = 768;
+#if defined(PLATFORM_WEB)
+    float m_width = 1920;
+    float m_height = 1080;
+#else
+    float m_width = 800;
+    float m_height = 450;
+#endif
 
     std::string m_title = "Boids Simulation";
 
     std::vector<std::shared_ptr<Boid>> m_boids;
 };
+
+static void UpdateDrawFrame()
+{
+    App::GetInstance().Update();
+    App::GetInstance().Draw();
+}

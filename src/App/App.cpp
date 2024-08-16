@@ -24,12 +24,16 @@ App &App::GetInstance()
 
 void App::Run()
 {
+#if defined(PLATFORM_WEB)
+    emscripten_set_main_loop(UpdateDrawFrame, 0, 1);
+#else
     while (!WindowShouldClose())
     {
         this->HandleInput();
         this->Update();
         this->Draw();
     }
+#endif
 }
 
 void App::Update()

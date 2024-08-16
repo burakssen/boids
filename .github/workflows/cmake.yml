@@ -1,0 +1,65 @@
+name: Build and Deploy WebAssembly
+
+on:
+  push:
+    branches:
+      - main # This will trigger on pushes to the main branch
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Emscripten
+        uses: trzeci/emscripten@v2.0.34
+
+      - name: Set up CMake
+        uses: jwlawson/actions-setup-cmake@v1
+
+      - name: Install dependencies
+        run: sudo apt-get update && sudo apt-get install -y build-essential
+
+      - name: Configure CMake for WebAssembly
+        run: |
+          mkdir -p build
+          cd build
+          emcmake cmake .. -DPLATFORM=Web
+
+      - name: Build WebAssembly
+        run: |
+          cd build
+          emmake make -j
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: webassembly-build
+          path: |
+            build/index.html
+            build/boids.js
+            build/boids.wasm
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Download build artifacts
+        uses: actions/download-artifact@v3
+        with:
+          name: webassembly-build
+          path: public
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: public
