@@ -44,14 +44,11 @@ jobs:
           echo "Contents of build directory:"
           ls -R build
 
-      - name: Create artifact
+      - name: Upload build artifacts
         uses: actions/upload-artifact@v3
         with:
           name: wasm-build
-          path: |
-            build/index.html
-            build/boids.js
-            build/boids.wasm
+          path: build/
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
@@ -59,3 +56,10 @@ jobs:
           branch: gh-pages
           folder: build
           clean: true
+
+      - name: Debug - List gh-pages branch contents
+        run: |
+          git fetch origin gh-pages
+          git checkout gh-pages
+          echo "Contents of gh-pages branch:"
+          ls -R
