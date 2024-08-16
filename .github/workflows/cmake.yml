@@ -39,12 +39,19 @@ jobs:
           cd build
           emmake make -j
 
+      - name: List build directory contents
+        run: |
+          echo "Contents of build directory:"
+          ls -R build
+
       - name: Create deployment directory
         run: |
           mkdir -p deploy
-          cp build/index.html deploy/
-          cp build/boids.js deploy/
-          cp build/boids.wasm deploy/
+          if [ -f build/index.html ]; then cp build/index.html deploy/; fi
+          if [ -f build/boids.js ]; then cp build/boids.js deploy/; fi
+          if [ -f build/boids.wasm ]; then cp build/boids.wasm deploy/; fi
+          echo "Contents of deploy directory:"
+          ls -R deploy/
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
