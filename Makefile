@@ -268,6 +268,54 @@ src/Boid/Boid.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/boids.dir/build.make CMakeFiles/boids.dir/src/Boid/Boid.cpp.s
 .PHONY : src/Boid/Boid.cpp.s
 
+src/Fish/Fish.o: src/Fish/Fish.cpp.o
+.PHONY : src/Fish/Fish.o
+
+# target to build an object file
+src/Fish/Fish.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boids.dir/build.make CMakeFiles/boids.dir/src/Fish/Fish.cpp.o
+.PHONY : src/Fish/Fish.cpp.o
+
+src/Fish/Fish.i: src/Fish/Fish.cpp.i
+.PHONY : src/Fish/Fish.i
+
+# target to preprocess a source file
+src/Fish/Fish.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boids.dir/build.make CMakeFiles/boids.dir/src/Fish/Fish.cpp.i
+.PHONY : src/Fish/Fish.cpp.i
+
+src/Fish/Fish.s: src/Fish/Fish.cpp.s
+.PHONY : src/Fish/Fish.s
+
+# target to generate assembly for a file
+src/Fish/Fish.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boids.dir/build.make CMakeFiles/boids.dir/src/Fish/Fish.cpp.s
+.PHONY : src/Fish/Fish.cpp.s
+
+src/Segment/Segment.o: src/Segment/Segment.cpp.o
+.PHONY : src/Segment/Segment.o
+
+# target to build an object file
+src/Segment/Segment.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boids.dir/build.make CMakeFiles/boids.dir/src/Segment/Segment.cpp.o
+.PHONY : src/Segment/Segment.cpp.o
+
+src/Segment/Segment.i: src/Segment/Segment.cpp.i
+.PHONY : src/Segment/Segment.i
+
+# target to preprocess a source file
+src/Segment/Segment.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boids.dir/build.make CMakeFiles/boids.dir/src/Segment/Segment.cpp.i
+.PHONY : src/Segment/Segment.cpp.i
+
+src/Segment/Segment.s: src/Segment/Segment.cpp.s
+.PHONY : src/Segment/Segment.s
+
+# target to generate assembly for a file
+src/Segment/Segment.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boids.dir/build.make CMakeFiles/boids.dir/src/Segment/Segment.cpp.s
+.PHONY : src/Segment/Segment.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -315,6 +363,12 @@ help:
 	@echo "... src/Boid/Boid.o"
 	@echo "... src/Boid/Boid.i"
 	@echo "... src/Boid/Boid.s"
+	@echo "... src/Fish/Fish.o"
+	@echo "... src/Fish/Fish.i"
+	@echo "... src/Fish/Fish.s"
+	@echo "... src/Segment/Segment.o"
+	@echo "... src/Segment/Segment.i"
+	@echo "... src/Segment/Segment.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

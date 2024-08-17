@@ -1,1 +1,1 @@
-/home/runner/work/_temp/68969644-76a5-41eb-a1d9-09af4dba0307/emsdk-main/upstream/emscripten/em++ -s USE_GLFW=3 -s TOTAL_MEMORY=16777216 --shell-file /home/runner/work/boids/boids/index.html @CMakeFiles/boids.dir/objects1.rsp -o boids.js @CMakeFiles/boids.dir/linkLibs.rsp
+/home/runner/work/_temp/239d0398-df2d-4efe-8dc5-bce9a392d75d/emsdk-main/upstream/emscripten/em++ -s USE_GLFW=3 -s TOTAL_MEMORY=16777216 -sASYNCIFY --shell-file /home/runner/work/boids/boids/index.html @CMakeFiles/boids.dir/objects1.rsp -o boids.js @CMakeFiles/boids.dir/linkLibs.rsp

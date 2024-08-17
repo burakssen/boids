@@ -74,50 +74,82 @@ CMakeFiles/boids.dir/src/App/App.cpp.o: CMakeFiles/boids.dir/includes_CXX.rsp
 CMakeFiles/boids.dir/src/App/App.cpp.o: /home/runner/work/boids/boids/src/App/App.cpp
 CMakeFiles/boids.dir/src/App/App.cpp.o: CMakeFiles/boids.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/work/boids/boids/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/boids.dir/src/App/App.cpp.o"
-	/home/runner/work/_temp/68969644-76a5-41eb-a1d9-09af4dba0307/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/boids.dir/src/App/App.cpp.o -MF CMakeFiles/boids.dir/src/App/App.cpp.o.d -o CMakeFiles/boids.dir/src/App/App.cpp.o -c /home/runner/work/boids/boids/src/App/App.cpp
+	/home/runner/work/_temp/239d0398-df2d-4efe-8dc5-bce9a392d75d/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/boids.dir/src/App/App.cpp.o -MF CMakeFiles/boids.dir/src/App/App.cpp.o.d -o CMakeFiles/boids.dir/src/App/App.cpp.o -c /home/runner/work/boids/boids/src/App/App.cpp
 
 CMakeFiles/boids.dir/src/App/App.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/boids.dir/src/App/App.cpp.i"
-	/home/runner/work/_temp/68969644-76a5-41eb-a1d9-09af4dba0307/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/boids/boids/src/App/App.cpp > CMakeFiles/boids.dir/src/App/App.cpp.i
+	/home/runner/work/_temp/239d0398-df2d-4efe-8dc5-bce9a392d75d/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/boids/boids/src/App/App.cpp > CMakeFiles/boids.dir/src/App/App.cpp.i
 
 CMakeFiles/boids.dir/src/App/App.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/boids.dir/src/App/App.cpp.s"
-	/home/runner/work/_temp/68969644-76a5-41eb-a1d9-09af4dba0307/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/boids/boids/src/App/App.cpp -o CMakeFiles/boids.dir/src/App/App.cpp.s
+	/home/runner/work/_temp/239d0398-df2d-4efe-8dc5-bce9a392d75d/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/boids/boids/src/App/App.cpp -o CMakeFiles/boids.dir/src/App/App.cpp.s
 
 CMakeFiles/boids.dir/src/Boid/Boid.cpp.o: CMakeFiles/boids.dir/flags.make
 CMakeFiles/boids.dir/src/Boid/Boid.cpp.o: CMakeFiles/boids.dir/includes_CXX.rsp
 CMakeFiles/boids.dir/src/Boid/Boid.cpp.o: /home/runner/work/boids/boids/src/Boid/Boid.cpp
 CMakeFiles/boids.dir/src/Boid/Boid.cpp.o: CMakeFiles/boids.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/work/boids/boids/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/boids.dir/src/Boid/Boid.cpp.o"
-	/home/runner/work/_temp/68969644-76a5-41eb-a1d9-09af4dba0307/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/boids.dir/src/Boid/Boid.cpp.o -MF CMakeFiles/boids.dir/src/Boid/Boid.cpp.o.d -o CMakeFiles/boids.dir/src/Boid/Boid.cpp.o -c /home/runner/work/boids/boids/src/Boid/Boid.cpp
+	/home/runner/work/_temp/239d0398-df2d-4efe-8dc5-bce9a392d75d/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/boids.dir/src/Boid/Boid.cpp.o -MF CMakeFiles/boids.dir/src/Boid/Boid.cpp.o.d -o CMakeFiles/boids.dir/src/Boid/Boid.cpp.o -c /home/runner/work/boids/boids/src/Boid/Boid.cpp
 
 CMakeFiles/boids.dir/src/Boid/Boid.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/boids.dir/src/Boid/Boid.cpp.i"
-	/home/runner/work/_temp/68969644-76a5-41eb-a1d9-09af4dba0307/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/boids/boids/src/Boid/Boid.cpp > CMakeFiles/boids.dir/src/Boid/Boid.cpp.i
+	/home/runner/work/_temp/239d0398-df2d-4efe-8dc5-bce9a392d75d/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/boids/boids/src/Boid/Boid.cpp > CMakeFiles/boids.dir/src/Boid/Boid.cpp.i
 
 CMakeFiles/boids.dir/src/Boid/Boid.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/boids.dir/src/Boid/Boid.cpp.s"
-	/home/runner/work/_temp/68969644-76a5-41eb-a1d9-09af4dba0307/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/boids/boids/src/Boid/Boid.cpp -o CMakeFiles/boids.dir/src/Boid/Boid.cpp.s
+	/home/runner/work/_temp/239d0398-df2d-4efe-8dc5-bce9a392d75d/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/boids/boids/src/Boid/Boid.cpp -o CMakeFiles/boids.dir/src/Boid/Boid.cpp.s
+
+CMakeFiles/boids.dir/src/Fish/Fish.cpp.o: CMakeFiles/boids.dir/flags.make
+CMakeFiles/boids.dir/src/Fish/Fish.cpp.o: CMakeFiles/boids.dir/includes_CXX.rsp
+CMakeFiles/boids.dir/src/Fish/Fish.cpp.o: /home/runner/work/boids/boids/src/Fish/Fish.cpp
+CMakeFiles/boids.dir/src/Fish/Fish.cpp.o: CMakeFiles/boids.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/work/boids/boids/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/boids.dir/src/Fish/Fish.cpp.o"
+	/home/runner/work/_temp/239d0398-df2d-4efe-8dc5-bce9a392d75d/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/boids.dir/src/Fish/Fish.cpp.o -MF CMakeFiles/boids.dir/src/Fish/Fish.cpp.o.d -o CMakeFiles/boids.dir/src/Fish/Fish.cpp.o -c /home/runner/work/boids/boids/src/Fish/Fish.cpp
+
+CMakeFiles/boids.dir/src/Fish/Fish.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/boids.dir/src/Fish/Fish.cpp.i"
+	/home/runner/work/_temp/239d0398-df2d-4efe-8dc5-bce9a392d75d/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/boids/boids/src/Fish/Fish.cpp > CMakeFiles/boids.dir/src/Fish/Fish.cpp.i
+
+CMakeFiles/boids.dir/src/Fish/Fish.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/boids.dir/src/Fish/Fish.cpp.s"
+	/home/runner/work/_temp/239d0398-df2d-4efe-8dc5-bce9a392d75d/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/boids/boids/src/Fish/Fish.cpp -o CMakeFiles/boids.dir/src/Fish/Fish.cpp.s
+
+CMakeFiles/boids.dir/src/Segment/Segment.cpp.o: CMakeFiles/boids.dir/flags.make
+CMakeFiles/boids.dir/src/Segment/Segment.cpp.o: CMakeFiles/boids.dir/includes_CXX.rsp
+CMakeFiles/boids.dir/src/Segment/Segment.cpp.o: /home/runner/work/boids/boids/src/Segment/Segment.cpp
+CMakeFiles/boids.dir/src/Segment/Segment.cpp.o: CMakeFiles/boids.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/work/boids/boids/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/boids.dir/src/Segment/Segment.cpp.o"
+	/home/runner/work/_temp/239d0398-df2d-4efe-8dc5-bce9a392d75d/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/boids.dir/src/Segment/Segment.cpp.o -MF CMakeFiles/boids.dir/src/Segment/Segment.cpp.o.d -o CMakeFiles/boids.dir/src/Segment/Segment.cpp.o -c /home/runner/work/boids/boids/src/Segment/Segment.cpp
+
+CMakeFiles/boids.dir/src/Segment/Segment.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/boids.dir/src/Segment/Segment.cpp.i"
+	/home/runner/work/_temp/239d0398-df2d-4efe-8dc5-bce9a392d75d/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/boids/boids/src/Segment/Segment.cpp > CMakeFiles/boids.dir/src/Segment/Segment.cpp.i
+
+CMakeFiles/boids.dir/src/Segment/Segment.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/boids.dir/src/Segment/Segment.cpp.s"
+	/home/runner/work/_temp/239d0398-df2d-4efe-8dc5-bce9a392d75d/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/boids/boids/src/Segment/Segment.cpp -o CMakeFiles/boids.dir/src/Segment/Segment.cpp.s
 
 CMakeFiles/boids.dir/src/main.cpp.o: CMakeFiles/boids.dir/flags.make
 CMakeFiles/boids.dir/src/main.cpp.o: CMakeFiles/boids.dir/includes_CXX.rsp
 CMakeFiles/boids.dir/src/main.cpp.o: /home/runner/work/boids/boids/src/main.cpp
 CMakeFiles/boids.dir/src/main.cpp.o: CMakeFiles/boids.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/work/boids/boids/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/boids.dir/src/main.cpp.o"
-	/home/runner/work/_temp/68969644-76a5-41eb-a1d9-09af4dba0307/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/boids.dir/src/main.cpp.o -MF CMakeFiles/boids.dir/src/main.cpp.o.d -o CMakeFiles/boids.dir/src/main.cpp.o -c /home/runner/work/boids/boids/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/work/boids/boids/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/boids.dir/src/main.cpp.o"
+	/home/runner/work/_temp/239d0398-df2d-4efe-8dc5-bce9a392d75d/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/boids.dir/src/main.cpp.o -MF CMakeFiles/boids.dir/src/main.cpp.o.d -o CMakeFiles/boids.dir/src/main.cpp.o -c /home/runner/work/boids/boids/src/main.cpp
 
 CMakeFiles/boids.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/boids.dir/src/main.cpp.i"
-	/home/runner/work/_temp/68969644-76a5-41eb-a1d9-09af4dba0307/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/boids/boids/src/main.cpp > CMakeFiles/boids.dir/src/main.cpp.i
+	/home/runner/work/_temp/239d0398-df2d-4efe-8dc5-bce9a392d75d/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/boids/boids/src/main.cpp > CMakeFiles/boids.dir/src/main.cpp.i
 
 CMakeFiles/boids.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/boids.dir/src/main.cpp.s"
-	/home/runner/work/_temp/68969644-76a5-41eb-a1d9-09af4dba0307/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/boids/boids/src/main.cpp -o CMakeFiles/boids.dir/src/main.cpp.s
+	/home/runner/work/_temp/239d0398-df2d-4efe-8dc5-bce9a392d75d/emsdk-main/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/boids/boids/src/main.cpp -o CMakeFiles/boids.dir/src/main.cpp.s
 
 # Object files for target boids
 boids_OBJECTS = \
 "CMakeFiles/boids.dir/src/App/App.cpp.o" \
 "CMakeFiles/boids.dir/src/Boid/Boid.cpp.o" \
+"CMakeFiles/boids.dir/src/Fish/Fish.cpp.o" \
+"CMakeFiles/boids.dir/src/Segment/Segment.cpp.o" \
 "CMakeFiles/boids.dir/src/main.cpp.o"
 
 # External object files for target boids
@@ -125,13 +157,15 @@ boids_EXTERNAL_OBJECTS =
 
 boids.js: CMakeFiles/boids.dir/src/App/App.cpp.o
 boids.js: CMakeFiles/boids.dir/src/Boid/Boid.cpp.o
+boids.js: CMakeFiles/boids.dir/src/Fish/Fish.cpp.o
+boids.js: CMakeFiles/boids.dir/src/Segment/Segment.cpp.o
 boids.js: CMakeFiles/boids.dir/src/main.cpp.o
 boids.js: CMakeFiles/boids.dir/build.make
 boids.js: vendor/raylib/raylib/libraylib.a
 boids.js: CMakeFiles/boids.dir/linkLibs.rsp
 boids.js: CMakeFiles/boids.dir/objects1.rsp
 boids.js: CMakeFiles/boids.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/runner/work/boids/boids/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable boids.js"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/runner/work/boids/boids/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable boids.js"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/boids.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
