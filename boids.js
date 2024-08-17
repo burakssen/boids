@@ -9113,7 +9113,7 @@ function GetWindowInnerHeight() { return window.innerHeight; }
   
   var Asyncify = {
   instrumentWasmImports(imports) {
-        var importPattern = /^(invoke_.*|__asyncjs__.*)$/;
+        var importPattern = /^(emscripten_sleep|invoke_.*|__asyncjs__.*)$/;
   
         for (let [x, original] of Object.entries(imports)) {
           if (typeof original == 'function') {
