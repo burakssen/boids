@@ -40,7 +40,7 @@ target_link_libraries(boids PUBLIC raylib)
 # Set specific linker flags for WebAssembly
 if(EMSCRIPTEN)
     set_target_properties(boids PROPERTIES 
-        LINK_FLAGS "-s USE_GLFW=3 -s TOTAL_MEMORY=16777216 --shell-file ${CMAKE_SOURCE_DIR}/index.html"
+        LINK_FLAGS "-s USE_GLFW=3 -s TOTAL_MEMORY=16777216 -sASYNCIFY --shell-file ${CMAKE_SOURCE_DIR}/index.html"
     )
 
     # copy index.html to build directory

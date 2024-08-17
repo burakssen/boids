@@ -7,6 +7,8 @@
 
 #include <raylib.h>
 
+#include "Fish/Fish.h"
+
 class Boid : public std::enable_shared_from_this<Boid>
 {
 public:
@@ -33,5 +35,7 @@ private:
     Vector2 m_acceleration;
 
     float m_maxForce = 0.2f;
-    float m_maxSpeed = 4.0f;
+    float m_maxSpeed = 2.0f;
+
+    std::shared_ptr<Fish> m_fish = std::make_shared<Fish>(m_position);
 };

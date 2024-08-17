@@ -28,17 +28,13 @@ void Boid::Update()
 
     this->m_velocity.x = std::clamp(this->m_velocity.x, -this->m_maxSpeed, this->m_maxSpeed);
     this->m_velocity.y = std::clamp(this->m_velocity.y, -this->m_maxSpeed, this->m_maxSpeed);
+
+    this->m_fish->Resolve(this->m_position);
 }
 
 void Boid::Draw()
 {
-    // draw rectangle
-    // rotate rectangle
-    float angle = atan2(this->m_velocity.y, this->m_velocity.x) * RAD2DEG;
-    // Color according to angle
-    Color color = ColorFromHSV(angle, 0.5f, 0.9f);
-
-    DrawRectanglePro({this->m_position.x, this->m_position.y, 20, 10}, {0, 0}, angle, color);
+    this->m_fish->Draw();
 }
 
 void Boid::SetPosition(Vector2 position)
@@ -190,21 +186,21 @@ void Boid::Flock(std::vector<std::shared_ptr<Boid>> &boids)
 void Boid::Edges()
 {
     // steer away from edges
-    if (this->m_position.x > GetScreenWidth())
+    if (this->m_position.x > GetScreenWidth() + 80)
     {
-        this->m_position.x = 0;
+        this->m_position.x = -80;
     }
-    else if (this->m_position.x < 0)
+    else if (this->m_position.x < -80)
     {
-        this->m_position.x = GetScreenWidth();
+        this->m_position.x = GetScreenWidth() + 80;
     }
 
-    if (this->m_position.y > GetScreenHeight())
+    if (this->m_position.y > GetScreenHeight() + 80)
     {
-        this->m_position.y = 0;
+        this->m_position.y = -80;
     }
-    else if (this->m_position.y < 0)
+    else if (this->m_position.y < -80)
     {
-        this->m_position.y = GetScreenHeight();
+        this->m_position.y = GetScreenHeight() + 80;
     }
 }
