@@ -1,287 +1,45 @@
-CMakeFiles/boids.dir/src/main.cpp.o: \
-  /home/runner/work/boids/boids/src/main.cpp \
-  /home/runner/work/boids/boids/src/App/App.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/string \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/max.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/comp.h \
+CMakeFiles/boids.dir/src/Spine/Spine.cpp.o: \
+  /home/runner/work/boids/boids/src/Spine/Spine.cpp \
+  /home/runner/work/boids/boids/src/Spine/Spine.h \
+  /home/runner/work/boids/boids/vendor/raylib/src/raylib.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/compat/stdarg.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/lib/clang/20/include/stdarg.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/stdarg.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/lib/clang/20/include/__stdarg_header_macro.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/lib/clang/20/include/__stdarg___gnuc_va_list.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/lib/clang/20/include/__stdarg_va_list.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/lib/clang/20/include/__stdarg_va_arg.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/lib/clang/20/include/__stdarg___va_copy.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/lib/clang/20/include/__stdarg_va_copy.h \
+  /home/runner/work/boids/boids/vendor/raylib/src/raymath.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/compat/math.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/math.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__config \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__config_site \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/math.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/features.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__math/abs.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/enable_if.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_integral.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/integral_constant.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/operation_traits.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/comp_ref_type.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/remove_cv.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/remove_const.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/remove_volatile.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__math/copysign.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_arithmetic.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_floating_point.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/promote.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_same.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/declval.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/limits \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__assert \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__assertion_handler \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__verbose_abort \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__availability \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/declval.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/max_element.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/iterator_traits.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/arithmetic.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_floating_point.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/remove_cv.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/remove_const.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/remove_volatile.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_integral.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_signed.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_arithmetic.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_signed_integer.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_unsigned_integer.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/constructible.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/convertible_to.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_convertible.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_array.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/cstddef \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/enable_if.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/version \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/stddef.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/lib/clang/20/include/stddef.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/stddef.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/lib/clang/20/include/__stddef_header_macro.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/lib/clang/20/include/__stddef_ptrdiff_t.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/lib/clang/20/include/__stddef_size_t.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/lib/clang/20/include/__stddef_wchar_t.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/lib/clang/20/include/__stddef_null.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/lib/clang/20/include/__stddef_nullptr_t.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/lib/clang/20/include/__stddef_max_align_t.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/lib/clang/20/include/__stddef_offsetof.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_function.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_const.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_reference.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_void.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_same.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/remove_reference.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/destructible.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_nothrow_destructible.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_destructible.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/remove_all_extents.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_scalar.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_enum.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_member_pointer.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_member_function_pointer.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_null_pointer.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_pointer.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_constructible.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/copyable.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/assignable.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/common_reference_with.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/same_as.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/common_reference.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/common_type.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/conditional.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/decay.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/add_pointer.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_referenceable.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/remove_extent.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/remove_cvref.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/void_t.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/copy_cv.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/add_const.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/add_cv.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/add_volatile.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/copy_cvref.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/add_lvalue_reference.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/add_rvalue_reference.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/make_const_lvalue_ref.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/forward.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/movable.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/swappable.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/class_or_enum.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_class.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_union.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/extent.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_nothrow_move_assignable.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_nothrow_move_constructible.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_nothrow_constructible.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/exchange.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_nothrow_assignable.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/move.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_copy_constructible.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__undef_macros \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/swap.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_move_assignable.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_move_constructible.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_swappable.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/nat.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_object.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/equality_comparable.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/boolean_testable.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/totally_ordered.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/pair.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/incrementable_traits.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_primary_template.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_valid_expansion.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/make_signed.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/apply_cv.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_volatile.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/type_list.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/readable_traits.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/disjunction.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/initializer_list \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/min.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/min_element.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/identity.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/reference_wrapper.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/invoke.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/invoke.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_base_of.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_core_convertible.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_member_object_pointer.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_reference_wrapper.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/weak_result_type.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/binary_function.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/unary_function.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/addressof.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_callable.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/remove.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/find.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/find_segment_if.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/segmented_iterator.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/unwrap_iter.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/pointer_traits.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/conjunction.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__bit/countr.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__bit/rotate.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/limits \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__bit/invert_if.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/bit_reference.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__string/constexpr_c_functions.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/construct_at.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/access.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/voidify.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/new \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__exception/exception.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/datasizeof.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_final.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_always_bitcastable.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_trivially_copyable.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/cstdint \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/stdint.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/lib/clang/20/include/stdint.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/stdint.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/bits/stdint.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_assignable.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_constant_evaluated.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_equality_comparable.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_trivially_lexicographically_comparable.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_unsigned.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/is_pointer_in_range.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/cwchar \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/cwctype \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/cctype \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/ctype.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/ctype.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/features.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/wctype.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/wctype.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/wchar.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/wchar.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/find_if.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/remove_if.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__format/enable_insertable.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/hash.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/hash.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__tuple/sfinae_helpers.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/tuple.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__tuple/make_tuple_types.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/array.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__tuple/tuple_element.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__tuple/tuple_indices.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/integer_sequence.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__tuple/tuple_types.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__tuple/tuple_size.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__tuple/tuple_like_ext.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_default_constructible.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/underlying_type.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/pair.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__compare/common_comparison_category.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__compare/ordering.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__compare/synth_three_way.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__compare/three_way_comparable.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/different_from.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/get.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/subrange.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/concepts.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/derived_from.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/invocable.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/predicate.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/regular.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/semiregular.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/relation.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/iter_move.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__tuple/pair_like.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__tuple/tuple_like.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_copy_assignable.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_implicitly_default_constructible.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_nothrow_copy_assignable.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_nothrow_copy_constructible.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_nothrow_default_constructible.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/unwrap_ref.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/piecewise_construct.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/cstring \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/compat/string.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/string.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/string.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/strings.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/string.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/memory_resource.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__ios/fpos.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/ios.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/distance.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__ranges/access.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__ranges/enable_borrowed_range.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/auto_cast.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__ranges/concepts.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__ranges/data.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/remove_pointer.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__ranges/enable_view.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__ranges/size.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/make_unsigned.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/reverse_iterator.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__compare/compare_three_way_result.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/advance.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/convert_to_integral.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/unreachable.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/iter_swap.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/iterator.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/next.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/prev.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__ranges/subrange.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__ranges/dangling.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__ranges/view_interface.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__ranges/empty.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/wrap_iter.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/allocate_at_least.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/allocator_traits.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_empty.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/allocator.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/compressed_pair.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/dependent_type.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/swap_allocator.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__memory_resource/polymorphic_allocator.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__memory_resource/memory_resource.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/exception_guard.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/tuple \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/allocator_arg_t.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/uses_allocator.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/lazy.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/maybe_const.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/negation.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/compare \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__compare/compare_partial_order_fallback.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__compare/partial_order.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__compare/compare_three_way.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__compare/weak_order.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__compare/strong_order.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__bit/bit_cast.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/priority_tag.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/cmath \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/promote.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/compat/math.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/math.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/math.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__math/abs.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__math/copysign.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/version \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__math/error_functions.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__math/exponential_functions.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__math/fdim.h \
@@ -303,22 +61,262 @@ CMakeFiles/boids.dir/src/main.cpp.o: \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/stdlib.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/stdlib.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/alloca.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__compare/compare_strong_order_fallback.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__compare/compare_weak_order_fallback.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__compare/is_eq.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__ranges/container_compatible_range.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__ranges/from_range.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__string/char_traits.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/copy_n.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/vector \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/copy.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/copy_move_common.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/iterator_operations.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/iter_swap.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/swap.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_move_assignable.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/add_lvalue_reference.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_referenceable.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/add_rvalue_reference.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_move_constructible.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_nothrow_move_assignable.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_nothrow_move_constructible.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_nothrow_constructible.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_constructible.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_reference.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/cstddef \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/stddef.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/lib/clang/20/include/stddef.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/stddef.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/lib/clang/20/include/__stddef_header_macro.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/lib/clang/20/include/__stddef_ptrdiff_t.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/lib/clang/20/include/__stddef_size_t.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/lib/clang/20/include/__stddef_wchar_t.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/lib/clang/20/include/__stddef_null.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/lib/clang/20/include/__stddef_nullptr_t.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/lib/clang/20/include/__stddef_max_align_t.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/lib/clang/20/include/__stddef_offsetof.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_swappable.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/conditional.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_void.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/nat.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/move.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_copy_constructible.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/add_const.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/remove_reference.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/ranges_iterator_concept.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/concepts.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/arithmetic.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_signed_integer.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_unsigned_integer.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/assignable.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/common_reference_with.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/convertible_to.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_convertible.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_array.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_function.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_const.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/same_as.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/common_reference.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/common_type.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/decay.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/add_pointer.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/remove_extent.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/remove_cvref.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/void_t.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/copy_cv.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/add_cv.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/add_volatile.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/copy_cvref.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/make_const_lvalue_ref.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/forward.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/constructible.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/destructible.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_nothrow_destructible.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_destructible.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/remove_all_extents.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_scalar.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_enum.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_member_pointer.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_member_function_pointer.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_null_pointer.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_pointer.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/copyable.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/movable.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/swappable.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/class_or_enum.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_class.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_union.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/extent.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/exchange.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_nothrow_assignable.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_object.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/derived_from.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_base_of.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/equality_comparable.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/boolean_testable.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/invocable.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/invoke.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/invoke.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/apply_cv.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_volatile.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_core_convertible.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_member_object_pointer.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_reference_wrapper.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/predicate.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/regular.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/semiregular.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/relation.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/totally_ordered.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/incrementable_traits.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_primary_template.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_valid_expansion.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/make_signed.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/type_list.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/iter_move.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/iterator_traits.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/pair.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/readable_traits.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/disjunction.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/pointer_traits.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/addressof.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/conjunction.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/advance.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/convert_to_integral.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/underlying_type.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/unreachable.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/distance.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__ranges/access.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__ranges/enable_borrowed_range.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/auto_cast.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__ranges/concepts.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__ranges/data.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/remove_pointer.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__ranges/enable_view.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__ranges/size.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/make_unsigned.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_unsigned.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/initializer_list \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/iter_swap.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/next.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/prev.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/unwrap_iter.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/unwrap_range.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/pair.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__compare/common_comparison_category.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__compare/ordering.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__compare/synth_three_way.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__compare/three_way_comparable.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__concepts/different_from.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/array.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/get.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/subrange.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/tuple.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__tuple/tuple_element.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__tuple/tuple_indices.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/integer_sequence.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__tuple/tuple_types.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__tuple/pair_like.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__tuple/tuple_like.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__tuple/tuple_size.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__tuple/sfinae_helpers.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__tuple/make_tuple_types.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__tuple/tuple_like_ext.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_assignable.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_copy_assignable.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_default_constructible.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_implicitly_default_constructible.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_nothrow_copy_assignable.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_nothrow_copy_constructible.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_nothrow_default_constructible.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/unwrap_ref.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/piecewise_construct.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__string/constexpr_c_functions.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/construct_at.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/access.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/voidify.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/new \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__exception/exception.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/datasizeof.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_final.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_always_bitcastable.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_trivially_copyable.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/cstdint \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/stdint.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/lib/clang/20/include/stdint.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/stdint.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/bits/stdint.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_constant_evaluated.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_equality_comparable.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_trivially_lexicographically_comparable.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/is_pointer_in_range.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/comp.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/operation_traits.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_trivially_assignable.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/for_each_segment.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/segmented_iterator.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/min.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/comp_ref_type.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/min_element.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/identity.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/reference_wrapper.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/weak_result_type.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/binary_function.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/unary_function.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_callable.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/equal.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/fill_n.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/lexicographical_compare.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/lexicographical_compare_three_way.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/three_way_comp_ref_type.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__compare/compare_three_way.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/remove.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/find.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/find_segment_if.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__bit/countr.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__bit/rotate.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__bit/invert_if.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/bit_reference.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/cwchar \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/cwctype \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/cctype \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/ctype.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/ctype.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/wctype.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/wctype.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/wchar.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/wchar.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/find_if.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/remove_if.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/rotate.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/move.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/move_backward.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/swap_ranges.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_trivially_move_assignable.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__bit_reference \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/copy_n.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__bit/popcount.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/cstring \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/compat/string.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/string.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/string.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/strings.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__format/enable_insertable.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__format/formatter.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__format/format_fwd.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__format/formatter_bool.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__format/concepts.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__format/format_parse_context.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__format/format_error.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/stdexcept \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/string.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/memory_resource.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/string_view \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/hash.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/hash.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/string_view.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/bounded_iter.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/reverse_iterator.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__compare/compare_three_way_result.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/iterator.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__ranges/subrange.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__ranges/dangling.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__ranges/view_interface.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__ranges/empty.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__string/char_traits.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/find_end.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/search.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/find_first_of.h \
@@ -328,49 +326,39 @@ CMakeFiles/boids.dir/src/main.cpp.o: \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/wasi/api.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/iosfwd \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/fstream.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/ios.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/istream.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/ostream.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/sstream.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/streambuf.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__std_mbstate_t.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__mbstate_t.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__string/extern_template_lists.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_allocator.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_standard_layout.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_trivial.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/noexcept_move_assign_container.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/climits \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/lib/clang/20/include/limits.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/limits.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/bits/limits.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/stdexcept \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/string_view \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__fwd/string_view.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/bounded_iter.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/type_identity.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/data.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/empty.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/reverse_access.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/size.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/vector \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/equal.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/lexicographical_compare.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/lexicographical_compare_three_way.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/three_way_comp_ref_type.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/rotate.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/move.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/move_backward.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/swap_ranges.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_trivially_move_assignable.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__bit_reference \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__bit/popcount.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__format/formatter.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__format/format_fwd.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__format/formatter_bool.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__format/concepts.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__format/format_parse_context.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__format/format_error.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/compare \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__compare/compare_partial_order_fallback.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__compare/partial_order.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__compare/weak_order.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__compare/strong_order.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__bit/bit_cast.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/priority_tag.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/cmath \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__compare/compare_strong_order_fallback.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__compare/compare_weak_order_fallback.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__compare/is_eq.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_specialization.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/tuple \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/allocator_arg_t.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/uses_allocator.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_empty.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/lazy.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/maybe_const.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/negation.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__format/formatter_integral.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__charconv/to_chars_integral.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__bit/countl.h \
@@ -392,11 +380,16 @@ CMakeFiles/boids.dir/src/main.cpp.o: \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/in_in_out_result.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/projected.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__format/buffer.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/max.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/max_element.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/ranges_copy_n.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/unreachable_sentinel.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/wrap_iter.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/transform.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__format/format_to_n_result.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/back_insert_iterator.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/allocate_at_least.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/allocator_traits.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/ranges_construct_at.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/concepts.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/uninitialized_algorithms.h \
@@ -404,6 +397,7 @@ CMakeFiles/boids.dir/src/main.cpp.o: \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_trivially_copy_constructible.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_trivially_move_constructible.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_unbounded_array.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/exception_guard.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__format/parser_std_format_spec.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__format/format_arg.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__variant/monostate.h \
@@ -415,6 +409,23 @@ CMakeFiles/boids.dir/src/main.cpp.o: \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/half_positive.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__functional/ranges_operations.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__format/width_estimation_table.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/string \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__ios/fpos.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/allocator.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/compressed_pair.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/dependent_type.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/swap_allocator.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__memory_resource/polymorphic_allocator.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__memory_resource/memory_resource.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__ranges/container_compatible_range.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__ranges/from_range.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__string/extern_template_lists.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_allocator.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/noexcept_move_assign_container.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/climits \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/lib/clang/20/include/limits.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/limits.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/bits/limits.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/array \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/empty.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/locale \
@@ -468,128 +479,17 @@ CMakeFiles/boids.dir/src/main.cpp.o: \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/streambuf \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__locale_dir/locale_base_api/bsd_locale_fallbacks.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__locale_dir/locale_base_api/locale_guard.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/compat/stdarg.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/lib/clang/20/include/stdarg.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/stdarg.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/lib/clang/20/include/__stdarg_header_macro.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/lib/clang/20/include/__stdarg___gnuc_va_list.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/lib/clang/20/include/__stdarg_va_list.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/lib/clang/20/include/__stdarg_va_arg.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/lib/clang/20/include/__stdarg___va_copy.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/lib/clang/20/include/__stdarg_va_copy.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/temp_value.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/aligned_storage.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__split_buffer \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/move_iterator.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/move_sentinel.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_trivially_destructible.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/memory \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/align.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/assume_aligned.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/ranges_uninitialized_algorithms.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/raw_storage_iterator.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/temporary_buffer.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/alignment_of.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/uses_allocator_construction.h \
-  /home/runner/work/boids/boids/vendor/raylib/src/raylib.h \
-  /home/runner/work/boids/boids/src/Boid/Boid.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/random \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__random/bernoulli_distribution.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__random/is_valid.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__random/uniform_real_distribution.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__random/generate_canonical.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__random/log2.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__random/binomial_distribution.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__random/cauchy_distribution.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__random/chi_squared_distribution.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__random/gamma_distribution.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__random/exponential_distribution.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__random/clamp_to_integral.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__random/default_random_engine.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__random/linear_congruential_engine.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__random/is_seed_sequence.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__random/discard_block_engine.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__random/discrete_distribution.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/upper_bound.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/numeric \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__numeric/accumulate.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__numeric/adjacent_difference.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__numeric/exclusive_scan.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__numeric/gcd_lcm.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__numeric/inclusive_scan.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__numeric/inner_product.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__numeric/iota.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__numeric/midpoint.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__numeric/partial_sum.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__numeric/pstl_reduce.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/pstl_frontend_dispatch.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__numeric/pstl_transform_reduce.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/pstl_backend.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/pstl_backends/cpu_backend.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/pstl_backends/cpu_backends/any_of.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/any_of.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/pstl_backends/cpu_backends/backend.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/pstl_backends/cpu_backends/serial.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/optional \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/in_place.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_execution_policy.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/pstl_backends/cpu_backends/fill.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/fill.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/pstl_backends/cpu_backends/find_if.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/pstl_backends/cpu_backends/for_each.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/for_each.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__ranges/movable_box.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/pstl_backends/cpu_backends/merge.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/merge.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/pstl_backends/cpu_backends/stable_sort.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/stable_sort.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/inplace_merge.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/destruct_n.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/sort.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/partial_sort.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/make_heap.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/sift_down.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/sort_heap.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/pop_heap.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/push_heap.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__debug_utils/strict_weak_ordering_check.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/is_sorted.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/is_sorted_until.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__debug_utils/randomize_range.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__bit/blsr.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/pstl_backends/cpu_backends/transform.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/pstl_backends/cpu_backends/transform_reduce.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__numeric/transform_reduce.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/execution \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__numeric/reduce.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__numeric/saturation_arithmetic.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/cmp.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__numeric/transform_exclusive_scan.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__numeric/transform_inclusive_scan.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__random/extreme_value_distribution.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__random/fisher_f_distribution.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__random/geometric_distribution.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__random/negative_binomial_distribution.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__random/poisson_distribution.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__random/normal_distribution.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__random/independent_bits_engine.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__random/knuth_b.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__random/shuffle_order_engine.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__random/lognormal_distribution.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__random/mersenne_twister_engine.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__random/piecewise_constant_distribution.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__random/piecewise_linear_distribution.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__random/random_device.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__random/ranlux.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__random/subtract_with_carry_engine.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__random/seed_seq.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__random/student_t_distribution.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__random/uniform_int_distribution.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__random/uniform_random_bit_generator.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__random/weibull_distribution.h \
+  /home/runner/work/boids/boids/src/Util.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/algorithm \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/adjacent_find.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/all_of.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/any_of.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/binary_search.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/clamp.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/copy_backward.h \
@@ -597,8 +497,14 @@ CMakeFiles/boids.dir/src/main.cpp.o: \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/count.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/count_if.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/equal_range.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/upper_bound.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/fill.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/find_if_not.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/fold.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/for_each.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__ranges/movable_box.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/optional \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/in_place.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/for_each_n.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/generate.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/generate_n.h \
@@ -607,10 +513,19 @@ CMakeFiles/boids.dir/src/main.cpp.o: \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/in_in_result.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/in_out_out_result.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/includes.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/inplace_merge.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/destruct_n.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__memory/temporary_buffer.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/alignment_of.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/is_heap.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/is_heap_until.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/is_partitioned.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/is_permutation.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/is_sorted.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/is_sorted_until.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/make_heap.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/sift_down.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/merge.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/min_max_result.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/minmax.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/minmax_element.h \
@@ -618,6 +533,14 @@ CMakeFiles/boids.dir/src/main.cpp.o: \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/next_permutation.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/none_of.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/nth_element.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/sort.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/partial_sort.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/sort_heap.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/pop_heap.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/push_heap.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__debug_utils/strict_weak_ordering_check.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__debug_utils/randomize_range.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__bit/blsr.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/partial_sort_copy.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/make_projected.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/partition.h \
@@ -626,12 +549,30 @@ CMakeFiles/boids.dir/src/main.cpp.o: \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/prev_permutation.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/pstl_any_all_none_of.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/pstl_find.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/pstl_backend.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/pstl_backends/cpu_backend.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/pstl_backends/cpu_backends/any_of.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/pstl_backends/cpu_backends/backend.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/pstl_backends/cpu_backends/serial.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__type_traits/is_execution_policy.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/pstl_backends/cpu_backends/fill.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/pstl_backends/cpu_backends/find_if.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/pstl_backends/cpu_backends/for_each.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/pstl_backends/cpu_backends/merge.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/pstl_backends/cpu_backends/stable_sort.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/stable_sort.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/pstl_backends/cpu_backends/transform.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/pstl_backends/cpu_backends/transform_reduce.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__numeric/transform_reduce.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/execution \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/pstl_frontend_dispatch.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__iterator/cpp17_iterator_concepts.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__utility/as_const.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/pstl_copy.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/pstl_transform.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/pstl_count.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/pstl_for_each.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__numeric/pstl_transform_reduce.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/pstl_equal.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/pstl_fill.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/pstl_generate.h \
@@ -717,7 +658,11 @@ CMakeFiles/boids.dir/src/main.cpp.o: \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/ranges_rotate_copy.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/ranges_sample.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/sample.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__random/uniform_int_distribution.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__random/is_valid.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__random/log2.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/uniform_random_bit_generator_adaptor.h \
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__random/uniform_random_bit_generator.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/ranges_search.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/ranges_search_n.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/search_n.h \
@@ -749,8 +694,4 @@ CMakeFiles/boids.dir/src/main.cpp.o: \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/reverse_copy.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/rotate_copy.h \
   /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/shift_left.h \
-  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/shift_right.h \
-  /home/runner/work/boids/boids/src/Fish/Fish.h \
-  /home/runner/work/boids/boids/src/Spine/Spine.h \
-  /home/runner/work/boids/boids/vendor/raylib/src/raymath.h \
-  /home/runner/work/boids/boids/src/Util.h
+  /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot/include/c++/v1/__algorithm/shift_right.h

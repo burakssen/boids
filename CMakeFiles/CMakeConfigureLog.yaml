@@ -21,8 +21,8 @@ events:
     checks:
       - "Performing Test COMPILER_HAS_THOSE_TOGGLES"
     directories:
-      source: "/home/runner/work/boids/boids/build/CMakeFiles/CMakeScratch/TryCompile-HZUJ9B"
-      binary: "/home/runner/work/boids/boids/build/CMakeFiles/CMakeScratch/TryCompile-HZUJ9B"
+      source: "/home/runner/work/boids/boids/build/CMakeFiles/CMakeScratch/TryCompile-VLRYTM"
+      binary: "/home/runner/work/boids/boids/build/CMakeFiles/CMakeScratch/TryCompile-VLRYTM"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
       CMAKE_C_FLAGS: ""
@@ -32,20 +32,20 @@ events:
       variable: "COMPILER_HAS_THOSE_TOGGLES"
       cached: true
       stdout: |
-        Change Dir: '/home/runner/work/boids/boids/build/CMakeFiles/CMakeScratch/TryCompile-HZUJ9B'
+        Change Dir: '/home/runner/work/boids/boids/build/CMakeFiles/CMakeScratch/TryCompile-VLRYTM'
         
-        Run Build Command(s): /opt/hostedtoolcache/cmake/3.30.2/x64/cmake-3.30.2-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_54e31/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_54e31.dir/build.make CMakeFiles/cmTC_54e31.dir/build
-        gmake[1]: Entering directory '/home/runner/work/boids/boids/build/CMakeFiles/CMakeScratch/TryCompile-HZUJ9B'
-        Building C object CMakeFiles/cmTC_54e31.dir/src.c.o
-        /home/runner/work/_temp/d23dcd20-eb2d-466d-946e-162842e0ded1/emsdk-main/upstream/emscripten/emcc -DCOMPILER_HAS_THOSE_TOGGLES  -Werror=pointer-arith -MD -MT CMakeFiles/cmTC_54e31.dir/src.c.o -MF CMakeFiles/cmTC_54e31.dir/src.c.o.d -o CMakeFiles/cmTC_54e31.dir/src.c.o -c /home/runner/work/boids/boids/build/CMakeFiles/CMakeScratch/TryCompile-HZUJ9B/src.c
+        Run Build Command(s): /opt/hostedtoolcache/cmake/3.30.2/x64/cmake-3.30.2-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4bbb3/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_4bbb3.dir/build.make CMakeFiles/cmTC_4bbb3.dir/build
+        gmake[1]: Entering directory '/home/runner/work/boids/boids/build/CMakeFiles/CMakeScratch/TryCompile-VLRYTM'
+        Building C object CMakeFiles/cmTC_4bbb3.dir/src.c.o
+        /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/emcc -DCOMPILER_HAS_THOSE_TOGGLES  -Werror=pointer-arith -MD -MT CMakeFiles/cmTC_4bbb3.dir/src.c.o -MF CMakeFiles/cmTC_4bbb3.dir/src.c.o.d -o CMakeFiles/cmTC_4bbb3.dir/src.c.o -c /home/runner/work/boids/boids/build/CMakeFiles/CMakeScratch/TryCompile-VLRYTM/src.c
         shared:INFO: (Emscripten: Running sanity checks)
-        Linking C executable cmTC_54e31.js
-        /opt/hostedtoolcache/cmake/3.30.2/x64/cmake-3.30.2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54e31.dir/link.txt --verbose=1
-        /home/runner/work/_temp/d23dcd20-eb2d-466d-946e-162842e0ded1/emsdk-main/upstream/emscripten/emcc @CMakeFiles/cmTC_54e31.dir/objects1.rsp -o cmTC_54e31.js
-        cache:INFO: generating system asset: symbol_lists/5af15e17dd067d4ae3a9b763c63d9726ad0fded4.json... (this will be cached in "/home/runner/work/_temp/d23dcd20-eb2d-466d-946e-162842e0ded1/emsdk-main/upstream/emscripten/cache/symbol_lists/5af15e17dd067d4ae3a9b763c63d9726ad0fded4.json" for subsequent builds)
+        Linking C executable cmTC_4bbb3.js
+        /opt/hostedtoolcache/cmake/3.30.2/x64/cmake-3.30.2-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4bbb3.dir/link.txt --verbose=1
+        /home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/emcc @CMakeFiles/cmTC_4bbb3.dir/objects1.rsp -o cmTC_4bbb3.js
+        cache:INFO: generating system asset: symbol_lists/0f3d0624e57e17a4a1774f4f55d3eed246d3e76c.json... (this will be cached in "/home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/symbol_lists/0f3d0624e57e17a4a1774f4f55d3eed246d3e76c.json" for subsequent builds)
         cache:INFO:  - ok
-        gmake[1]: Leaving directory '/home/runner/work/boids/boids/build/CMakeFiles/CMakeScratch/TryCompile-HZUJ9B'
+        gmake[1]: Leaving directory '/home/runner/work/boids/boids/build/CMakeFiles/CMakeScratch/TryCompile-VLRYTM'
         
       exitCode: 0
 ...

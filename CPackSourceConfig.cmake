@@ -25,7 +25,7 @@ set(CPACK_IGNORE_FILES "/CVS/;/\\.svn/;/\\.bzr/;/\\.hg/;/\\.git/;\\.swp\$;\\.#;/
 set(CPACK_INNOSETUP_ARCHITECTURE "x86")
 set(CPACK_INSTALLED_DIRECTORIES "/home/runner/work/boids/boids;/")
 set(CPACK_INSTALL_CMAKE_PROJECTS "")
-set(CPACK_INSTALL_PREFIX "/home/runner/work/_temp/d23dcd20-eb2d-466d-946e-162842e0ded1/emsdk-main/upstream/emscripten/cache/sysroot")
+set(CPACK_INSTALL_PREFIX "/home/runner/work/_temp/00103dba-d8ff-48e1-b385-b43eab15257b/emsdk-main/upstream/emscripten/cache/sysroot")
 set(CPACK_MODULE_PATH "/home/runner/work/boids/boids/vendor/raylib/cmake")
 set(CPACK_NSIS_DISPLAY_NAME "raylib 5.0.0")
 set(CPACK_NSIS_INSTALLER_ICON_CODE "")

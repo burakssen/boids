@@ -292,29 +292,29 @@ src/Fish/Fish.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/boids.dir/build.make CMakeFiles/boids.dir/src/Fish/Fish.cpp.s
 .PHONY : src/Fish/Fish.cpp.s
 
-src/Segment/Segment.o: src/Segment/Segment.cpp.o
-.PHONY : src/Segment/Segment.o
+src/Spine/Spine.o: src/Spine/Spine.cpp.o
+.PHONY : src/Spine/Spine.o
 
 # target to build an object file
-src/Segment/Segment.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boids.dir/build.make CMakeFiles/boids.dir/src/Segment/Segment.cpp.o
-.PHONY : src/Segment/Segment.cpp.o
+src/Spine/Spine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boids.dir/build.make CMakeFiles/boids.dir/src/Spine/Spine.cpp.o
+.PHONY : src/Spine/Spine.cpp.o
 
-src/Segment/Segment.i: src/Segment/Segment.cpp.i
-.PHONY : src/Segment/Segment.i
+src/Spine/Spine.i: src/Spine/Spine.cpp.i
+.PHONY : src/Spine/Spine.i
 
 # target to preprocess a source file
-src/Segment/Segment.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boids.dir/build.make CMakeFiles/boids.dir/src/Segment/Segment.cpp.i
-.PHONY : src/Segment/Segment.cpp.i
+src/Spine/Spine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boids.dir/build.make CMakeFiles/boids.dir/src/Spine/Spine.cpp.i
+.PHONY : src/Spine/Spine.cpp.i
 
-src/Segment/Segment.s: src/Segment/Segment.cpp.s
-.PHONY : src/Segment/Segment.s
+src/Spine/Spine.s: src/Spine/Spine.cpp.s
+.PHONY : src/Spine/Spine.s
 
 # target to generate assembly for a file
-src/Segment/Segment.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/boids.dir/build.make CMakeFiles/boids.dir/src/Segment/Segment.cpp.s
-.PHONY : src/Segment/Segment.cpp.s
+src/Spine/Spine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boids.dir/build.make CMakeFiles/boids.dir/src/Spine/Spine.cpp.s
+.PHONY : src/Spine/Spine.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -366,9 +366,9 @@ help:
 	@echo "... src/Fish/Fish.o"
 	@echo "... src/Fish/Fish.i"
 	@echo "... src/Fish/Fish.s"
-	@echo "... src/Segment/Segment.o"
-	@echo "... src/Segment/Segment.i"
-	@echo "... src/Segment/Segment.s"
+	@echo "... src/Spine/Spine.o"
+	@echo "... src/Spine/Spine.i"
+	@echo "... src/Spine/Spine.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

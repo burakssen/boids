@@ -11,7 +11,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/runner/work/boids/boids/src/App/App.cpp" "CMakeFiles/boids.dir/src/App/App.cpp.o" "gcc" "CMakeFiles/boids.dir/src/App/App.cpp.o.d"
   "/home/runner/work/boids/boids/src/Boid/Boid.cpp" "CMakeFiles/boids.dir/src/Boid/Boid.cpp.o" "gcc" "CMakeFiles/boids.dir/src/Boid/Boid.cpp.o.d"
   "/home/runner/work/boids/boids/src/Fish/Fish.cpp" "CMakeFiles/boids.dir/src/Fish/Fish.cpp.o" "gcc" "CMakeFiles/boids.dir/src/Fish/Fish.cpp.o.d"
-  "/home/runner/work/boids/boids/src/Segment/Segment.cpp" "CMakeFiles/boids.dir/src/Segment/Segment.cpp.o" "gcc" "CMakeFiles/boids.dir/src/Segment/Segment.cpp.o.d"
+  "/home/runner/work/boids/boids/src/Spine/Spine.cpp" "CMakeFiles/boids.dir/src/Spine/Spine.cpp.o" "gcc" "CMakeFiles/boids.dir/src/Spine/Spine.cpp.o.d"
   "/home/runner/work/boids/boids/src/main.cpp" "CMakeFiles/boids.dir/src/main.cpp.o" "gcc" "CMakeFiles/boids.dir/src/main.cpp.o.d"
   )
 
