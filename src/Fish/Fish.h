@@ -1,6 +1,6 @@
 #pragma once
 
-#include "Segment/Segment.h"
+#include "Spine/Spine.h"
 #include "Util.h"
 #include <raylib.h>
 #include <raymath.h>
@@ -28,7 +28,7 @@ private:
     float RelativeAngleDiff(float angle1, float angle2);
 
 private:
-    Segment m_spine;
+    Spine m_spine;
 
     Color m_bodyColor = {58, 124, 165, 255};
     Color m_finColor = {129, 195, 215, 255};

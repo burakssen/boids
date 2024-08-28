@@ -5,7 +5,7 @@ App::App()
     InitWindow(this->m_width, this->m_height, this->m_title.c_str());
     SetTargetFPS(60);
 
-    for (int i = 0; i < 50; i++)
+    for (int i = 0; i < 100; i++)
     {
         this->m_boids.push_back(std::make_shared<Boid>());
     }

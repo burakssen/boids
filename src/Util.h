@@ -130,22 +130,6 @@ static Vector2 RotatePoint(Vector2 point, Vector2 origin, float angle)
     return Vector2Add(origin, RotatePoint(Vector2Subtract(point, origin), angle));
 }
 
-static void DrawEllipsePro(Vector2 position, float radiusX, float radiusY, float rotation, Color color, int segments)
-{
-
-    std::vector<Vector2> points;
-    for (int i = 0; i < segments; ++i)
-    {
-        float angle = 2.0f * PI * i / segments;
-        points.push_back((Vector2){position.x + radiusX * cosf(angle), position.y + radiusY * sinf(angle)});
-    }
-
-    for (size_t i = 0; i < points.size(); ++i)
-    {
-        DrawLineV(points[i], points[(i + 1) % points.size()], color);
-    }
-}
-
 #define NUM_SEGMENTS 30
 
 static void DrawFilledEllipse(Vector2 center, Vector2 radius, float angle, Color color)

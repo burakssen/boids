@@ -7,12 +7,11 @@
 
 #include "Util.h"
 
-class Segment
+class Spine
 {
 public:
-    Segment(Vector2 origin, int jointCount, int linkSize, float angleConstraint = 2 * PI);
+    Spine(Vector2 origin, int jointCount, int linkSize, float angleConstraint = 2 * PI);
     void Resolve(Vector2 pos);
-    void FabrikResolve(Vector2 pos, Vector2 anchor);
     void Draw();
 
 public:
